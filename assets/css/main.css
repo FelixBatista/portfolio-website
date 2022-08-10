@@ -279,6 +279,13 @@ input, select, textarea {
 		text-align: center;
 		margin: 1em;
 	}
+	/* 3D Viewer */
+	.portfolio-container ._3dviewer {
+		display: inline-block;
+		vertical-align: middle;
+		width: 46%;
+		margin: 1em 3em 0 0;
+	  }
 
 	@media screen and (max-width: 1680px) {
 
@@ -1860,7 +1867,6 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			position: relative;
-			height:20px;
 			margin: 0 0 2em 0;
 		}
 
@@ -3064,6 +3070,5 @@ input, select, textarea {
 			}
 
 	}
-
-
+	
 	

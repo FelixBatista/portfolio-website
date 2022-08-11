@@ -266,8 +266,9 @@ input, select, textarea {
 		display: inline-block;
 		vertical-align: middle;
 		width: 46%;
-		height: 20%;
+		height: 20em;
 		margin: 1em 3em 0 0;
+		object-fit: cover;
 	}
 	.card ._text {
 		display: inline-block;
@@ -286,7 +287,6 @@ input, select, textarea {
 		vertical-align: middle;
 		width: 46%;
 		margin: 1em 3em 0 0;
-		/*FIXME: add max height and crop the image */
 	  }
 
 	@media screen and (max-width: 1680px) {

@@ -266,6 +266,7 @@ input, select, textarea {
 		display: inline-block;
 		vertical-align: middle;
 		width: 46%;
+		height: 20%;
 		margin: 1em 3em 0 0;
 	}
 	.card ._text {
@@ -285,6 +286,7 @@ input, select, textarea {
 		vertical-align: middle;
 		width: 46%;
 		margin: 1em 3em 0 0;
+		/*FIXME: add max height and crop the image */
 	  }
 
 	@media screen and (max-width: 1680px) {
@@ -302,7 +304,7 @@ input, select, textarea {
 		}
 
 	}
-
+/* 
 	@media screen and (max-width: 980px) {
 
 		.card {
@@ -317,12 +319,18 @@ input, select, textarea {
 			width: calc(100%);
 		}
 
-	}
+	} */
 
 	@media screen and (max-width: 736px) {
 
 		.card {
 			width: calc(100% - 40px);
+		}
+		.card ._image{
+			width: calc(100%);
+		}
+		.card ._text{
+			width: calc(100%);
 		}
 
 	}
@@ -1731,9 +1739,12 @@ input, select, textarea {
 		.box .image.featured {
 			position: relative;
 			width: auto;
+			max-height: 400px;
 			left: 1.75em;
 			top: 1.75em;
 			margin: -4.5em 0 4.25em -3.5em;
+			overflow: hidden;
+			/* FIXME: move the image inside the box so its better centralized */
 		}
 
 		.box.post header {

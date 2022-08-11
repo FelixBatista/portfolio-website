@@ -332,8 +332,19 @@ input, select, textarea {
 		.card ._text{
 			width: calc(100%);
 		}
+		.card ._3dviewer{
+			width: calc(100%);
+		}
 
 	}
+
+
+/* Model-viewer */	
+	model-viewer {
+		width: 100%;
+		height: 20em;
+		--poster-color: #ffffff00;
+	  }
 
 
 

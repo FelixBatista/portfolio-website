@@ -254,33 +254,33 @@ input, select, textarea {
 	}
 	
 
-/* portfolio_container */
+/* card */
 
-.portfolio-container {
+.card {
 	background: #ffffff;
 	padding: 1em 2em 2em 1em;
 	margin: 2em auto;
 	width: 70em;
 }
-	.portfolio-container ._image {
+	.card ._image {
 		display: inline-block;
 		vertical-align: middle;
 		width: 46%;
 		margin: 1em 3em 0 0;
 	}
-	.portfolio-container ._text {
+	.card ._text {
 		display: inline-block;
 		vertical-align: middle;
 		text-align: justify;
 		width: 46%;
 	}
-	.portfolio-container ._text.actions {
+	.card ._text.actions {
 		vertical-align: bottom;
 		text-align: center;
 		margin: 1em;
 	}
 	/* 3D Viewer */
-	.portfolio-container ._3dviewer {
+	.card ._3dviewer {
 		display: inline-block;
 		vertical-align: middle;
 		width: 46%;
@@ -289,7 +289,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
-		.portfolio-container {
+		.card {
 			width: 70em;
 		}
 
@@ -297,7 +297,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 1280px) {
 
-		.portfolio-container {
+		.card {
 			width: calc(100% - 60px);
 		}
 
@@ -305,15 +305,15 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		.portfolio-container {
+		.card {
 			width: calc(100% - 80px);
 		}
 
-		.portfolio-container ._image{
+		.card ._image{
 			width: calc(100%);
 		}
 
-		.portfolio-container ._text{
+		.card ._text{
 			width: calc(100%);
 		}
 
@@ -321,7 +321,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		.portfolio-container {
+		.card {
 			width: calc(100% - 40px);
 		}
 

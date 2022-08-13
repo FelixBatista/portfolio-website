@@ -85,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		/* background-image: url("../../images/IMG_1697.jpg");*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -281,11 +281,11 @@ input, select, textarea {
 		text-align: center;
 		margin: 1em;
 	}
-	/* 3D Viewer */
 	.card ._3dviewer {
 		display: inline-block;
 		vertical-align: middle;
 		width: 46%;
+		height: 20em;
 		margin: 1em 3em 0 0;
 	  }
 
@@ -342,7 +342,7 @@ input, select, textarea {
 /* Model-viewer */	
 	model-viewer {
 		width: 100%;
-		height: 20em;
+		height: 100%;
 		--poster-color: #ffffff00;
 	  }
 
@@ -1758,6 +1758,12 @@ input, select, textarea {
 			/* FIXME: move the image inside the box so its better centralized */
 		}
 
+		.box.post ._3dviewer {
+			position: relative;
+			width: auto;
+			height: 400px;
+		  }
+
 		.box.post header {
 			padding-top: 1em;
 			margin: 0 0 2em 0;
@@ -1769,7 +1775,7 @@ input, select, textarea {
 		}
 
 		.box.post header > p {
-			margin-top: 1.25em;
+			margin: 1.25em;
 			font-size: 1.25em;
 		}
 
@@ -1862,6 +1868,13 @@ input, select, textarea {
 			font-size: 1.5em;
 			padding: 0.75em 1.5em 0.75em 1.5em;
 		}
+
+		.button.large.thingverse {
+			background: #0063ce;
+		}
+			.button.large.thingverse:hover{
+				background: #248bfb;
+			}
 
 /* Image */
 
@@ -3093,4 +3106,14 @@ input, select, textarea {
 
 	}
 	
-	
+	/* TODO: change name */
+	.icon2 {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		-moz-transition: background-color .25s ease-in-out;
+		-webkit-transition: background-color .25s ease-in-out;
+		-ms-transition: background-color .25s ease-in-out;
+		transition: background-color .25s ease-in-out;
+	}
+
